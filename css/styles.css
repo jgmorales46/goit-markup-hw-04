@@ -181,16 +181,6 @@ header a {
   text-transform: uppercase;
   padding-bottom: 20px;
 }
-.icons__link {
-  background-color: var(--main--color--fondo--logos);
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: var(--main--textSecundario);
-}
 
 /*  estilos para titulo y boton debajo del titulo segundo sectiom*/
 
@@ -320,6 +310,16 @@ header a {
   border-radius: 50%;
 }
 
+.icons__link {
+  background-color: #ffff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--main--textSecundario);
+}
 .icons__item:hover > .icons__link,
 .icons__item:focus > .icons__link,
 .icons__item:focus-within > .icons__link {
@@ -333,18 +333,9 @@ header a {
 .icons__item:focus-within .iconos {
   fill: var(--main--textColor);
 }
-
-.icons__link {
-  background-color: var(--main--color--fondo--logos);
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: var(--main--textSecundario);
+.link__logo {
+  background-color: rgb(245, 244, 250, 0.1);
 }
-
 /*************************---------------------------********************************/
 
 .card {
